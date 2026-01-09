@@ -1,12 +1,17 @@
+import { Text } from '@react-navigation/elements'
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 const saved = () => {
-  return (
-    <View>
-      <Text>saved</Text>
-    </View>
-  )
+    return (
+        <SafeAreaView>
+
+            <View>
+                <Text>saved</Text>
+            </View>
+        </SafeAreaView>
+    )
 }
 
 export default saved
