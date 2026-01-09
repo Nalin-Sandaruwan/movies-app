@@ -43,7 +43,7 @@ export default function Index() {
           <Text style={{color: 'white', fontWeight:"bold", fontSize: 24 ,textAlign: "center"}} >
             Welcome to MovieApp
           </Text>
-          <Text style={{color: 'white',fontWeight:"light", fontSize: 11, marginTop: 4, textAlign: "center", marginHorizontal:10}} >
+          <Text style={{fontWeight:"light", fontSize: 11, marginTop: 4, textAlign: "center", marginHorizontal:10}} className="text-white" >
             Discover a world of movies at your fingertips. Browse, search, and
             save your favorite films all in one place.
           </Text>
